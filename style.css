@@ -1,0 +1,22 @@
+* {
+	box-sizing: border-box;
+}
+img {
+	border: 1px solid gray;
+	width: 170px;
+	min-height: 250px;
+	margin-top: 4%;
+}
+.thumbnail {
+	height: 465px;
+}
+.height {
+	height: 90%;
+}
+.formulario {
+	width: 40%;
+	margin: 0 auto;
+}
+.disco {
+	min-height: 180px;
+}
