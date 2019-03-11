@@ -1,31 +1,39 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
-	<title>Proyecto Hackaton</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<title>Awesome Galaxy Webstore</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.1.0.js"
+		integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
 </head>
+
 <body>
 	<nav class="navbar navbar-default">
-  	<div class="container">
-    	<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+					data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
 				</button>
-      <a class="navbar-brand" href="index.html">Webstore hackaton</a>
-    </div>
+				<a class="navbar-brand" href="index.html">Webstore hackaton</a>
+			</div>
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Productos <span class="caret"></span></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+							aria-expanded="false">Productos <span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="libros.html">Libros</a></li>
-							<li><a href="discos.html">Discos</a></li>
+							<li><a href="espirales.html">Galaxias espirales</a></li>
+							<li><a href="elipticas.html">Galaxias elipticas</a></li>
+							<li><a href="lenticulares.html">Galaxias lenticulares</a></li>
+							<li><a href="irregulares.html">Galaxias irregulares</a></li>
 						</ul>
 					</li>
 				</ul>
@@ -37,44 +45,67 @@
 				</form>
 				<ul class="nav navbar-nav navbar-right">
 					<li class=""><a href="index.html">Ver todo</a></li>
-					<li class=""><a href="productos.html">Agregar producto</a></li>
+					<li class=""><a href="productos.html">Contacto</a></li>
 				</ul>
 			</div><!-- /.navbar-collapse -->
-  	</div><!-- /.container-fluid -->
+		</div><!-- /.container-->
 	</nav>
-<div class="container formulario">
-	<form>
-		<div class="form-group">
-			<label for="disabledSelect">Nuevos productos</label>
-			<select id="disabledSelect" class="form-control">
-				<option>Libros</option>
-				<option>Discos</option>
-				<option>Algo más</option>
-			</select>
-		</div>
-		<div class="form-group">	
-			<label for="exampleInputtext">Título</label>
-			<input type="text" class="form-control" id="exampleInputtext" placeholder="">
-		</div>
-		<div class="form-group">	
-			<label for="exampleInputcategoria">Categoria</label>
-			<input type="text" class="form-control" id="exampleInputcategoria" placeholder="">
-		</div>
-		<div class="form-group">	
-			<label for="exampleInputprecio">Precio</label>
-			<input type="number" class="form-control" id="exampleInputprecio" placeholder="">
-		</div>
-		<div class="form-group">	
-			<label for="exampleInputventa">Puntos de venta: Ej. Yenny, Amazon, Musimundo</label>
-			<input type="text" class="form-control" id="exampleInputventa" placeholder="">
-		</div>
-		<div class="form-group">	
-			<label for="exampleInputimg">Imagen URL</label>
-			<input type="url" class="form-control" id="exampleInputimg" placeholder="">
-		</div>
-	  <label><button type="submit" class="btn btn-primary">Publicar</button></label>
-	</form>
-</div><!--container formulario-->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<div class="container formulario">
+		<form>
+			<div class="form-group">
+				<label for="exampleInputtext">Nombre y Apellido</label>
+				<input type="text" class="form-control" id="exampleInputtext"
+					placeholder="Nombre y Apellido extraterrestre si lo posee y sino, el terrestre." required>
+			</div>
+			<div class="form-group">
+				<label for="exampleInputtext">Correo electrónico</label>
+				<input type="text" class="form-control" id="exampleInputtext"
+					placeholder="Escribe tu dirección de correo electrónico" required>
+			</div><!--
+			<div class="form-group">
+				<label for="exampleInputcategoria">Categoria</label>
+				<input type="text" class="form-control" id="exampleInputcategoria" placeholder="">
+			</div> -->
+			<div class="form-group">
+				<label for="disabledSelect">Te gustaría agregar un nuevo producto (galaxia)?</label>
+				<select id="disabledSelect" class="form-control" class="seleccionmultiple">
+					<option value="vacío"></option>
+					<option value="Si">Si</option>
+					<option value="No">No</option>
+					<option>...Yo solo quiero conocer galaxias</option>
+				</select>
+			</div>
+			<div>
+				<label for="customRange3">Selecciona un valor aproximado de la galaxia desde 0 ufópesos hasta 2 ufópesos
+					(la más cara!)</label>
+				<input type="range" class="custom-range" min="0" max="2" step="0.20" id="customRange3" list="tickmarks">
+				<datalist id="tickmarks">
+					<option value="0" label="Sin valor">
+					<option value="0.20">
+					<option value="0.40">
+					<option value="0.60">
+					<option value="0.80">
+					<option value="1.0" label="1.0 ufópesos">
+					<option value="1.20">
+					<option value="1.40">
+					<option value="1.60">
+					<option value="1.80">
+					<option value="2.0" label="2.0 ufópesos">
+				</datalist>
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlTextarea1">Escribí un mensaje</label>
+				<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+					placeholder="Tu mensaje va acá"></textarea>
+			</div>
+			<label><button type="submit" class="btn btn-primary">Enviar</button></label>
+		</form>
+	</div>
+	<!--container formulario-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+		crossorigin="anonymous"></script>
+	<script src="javascript/scripts.js"></script>
 </body>
+
 </html>

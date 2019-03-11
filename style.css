@@ -26,4 +26,6 @@ img {
 .formulario {
 	width: 40%;
 	margin: 0 auto;
+	background-color: rgba(127, 255, 212, 0.329);
+	border-radius: 10px;
 }
