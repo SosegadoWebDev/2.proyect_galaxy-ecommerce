@@ -2,14 +2,20 @@
 	box-sizing: border-box;
 }
 img {
-	border: 2px solid gray;
+	border-radius: 5px;
 	width: 95% !important;
 	height: 260px !important;
 	margin-top: 10px;
 }
+body {
+	font-family: 'ZCOOL XiaoWei', serif;
+}
 .thumbnail {
 	height: 420px;
-	text-align: left;	 
+	text-align: left;
+	background-color: transparent;
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.466);
 }
 .dropdown-menu li {
 	list-style-image: url(imagenes/galaxy.png) !important;
@@ -26,6 +32,37 @@ img {
 .formulario {
 	width: 40%;
 	margin: 0 auto;
-	background-color: rgba(127, 255, 212, 0.329);
+	margin-top: 35px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	background-color: rgba(151, 189, 176, 0.171);
 	border-radius: 10px;
+	color: rgb(138, 171, 201) !important;
+}
+.navbar {
+	margin: 0;
+	border: 0;
+	font-weight: bold;
+}
+.caption {
+	background-color: rgba(7, 7, 7, 0.432) !important;
+	border-radius: 10px;
+	color: rgb(138, 171, 201) !important;
+}
+canvas {
+	display: block;
+	position: absolute;
+	top: 0;
+	z-index: -1;
+}
+#particles-js {
+	background-color: #000000;
+	height: 2300px !important;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+	padding-top: 40px;
+}
+.collapse {
+	padding: 0;
 }
