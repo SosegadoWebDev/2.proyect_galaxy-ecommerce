@@ -67,7 +67,15 @@ canvas {
 .collapse {
 	padding: 0;
 }
-
+.navbar {
+	background: black;
+}
+.navbar-form {
+	background-color: color;
+}
+.form-group input {
+	background-color: transparent;
+}
 @media only screen and (max-width: 480px) {
 	.navbar-collapse, .navbar-header {
 		margin: 0 !important;
