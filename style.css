@@ -1,7 +1,7 @@
 * {
 	box-sizing: border-box;
 }
-img {
+.imagenes {
 	border-radius: 5px;
 	width: 95% !important;
 	height: 260px !important;
@@ -76,6 +76,7 @@ canvas {
 .form-group input {
 	background-color: transparent;
 }
+
 @media only screen and (max-width: 480px) {
 	.navbar-collapse, .navbar-header {
 		margin: 0 !important;
