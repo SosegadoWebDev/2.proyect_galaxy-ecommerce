@@ -65,19 +65,19 @@
 					<input type="text" class="form-control" id="exampleInputtext"
 						placeholder="Escribe tu dirección de correo electrónico" required>
 				</div>
-				<!--
-			<div class="form-group">
-				<label for="exampleInputcategoria">Categoria</label>
-				<input type="text" class="form-control" id="exampleInputcategoria" placeholder="">
-			</div> -->
 				<div class="form-group">
 					<label for="disabledSelect">Te gustaría agregar un nuevo producto (galaxia)?</label>
-					<select id="disabledSelect" class="form-control" class="seleccionmultiple">
-						<option value="vacío"></option>
+					<select id="disabledSelect" class="form-control seleccionmultiple">
 						<option value="Si">Si</option>
 						<option value="No">No</option>
-						<option>...Yo solo quiero conocer galaxias</option>
+						<option value="Nope">...Yo solo quiero conocer galaxias</option>
 					</select>
+					<div id="show-div">
+						<label for="exampleFormControlTextarea0">Contanos del nuevo producto</label>
+						<textarea class="form-control" id="exampleFormControlTextarea0" rows="2"
+							placeholder="Tu mensaje va acá"></textarea>
+					</div>
+
 				</div>
 				<div>
 					<label for="customRange3">Selecciona un valor aproximado de la galaxia desde 0 ufópesos hasta 2

@@ -76,7 +76,9 @@ canvas {
 .form-group input {
 	background-color: transparent;
 }
-
+.display-none {
+	display: none;
+}
 @media only screen and (max-width: 480px) {
 	.navbar-collapse, .navbar-header {
 		margin: 0 !important;
